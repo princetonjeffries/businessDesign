@@ -42,6 +42,15 @@ body{
 }
 article#homePage{
     width: 85%;
+    padding: 1rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #950740;
+}
+article#orderForm{
+    width: 50%;
+    padding: 0.5rem;
     display: block;
     margin-left: auto;
     margin-right: auto;
