@@ -178,8 +178,20 @@
                             <option value="cinnamon">Cinnamon</option>
                         </select>
                     </li>
+                    <br>
+                    <li>
+                        <label for="extraStuff">Any other requests?</label>
+                        <br>
+                        <textarea name="requests" id="extraStuff" cols="30" rows="10"></textarea>
+                    </li>
                 </ul>
-                
+            </fieldset>
+            <fieldset>
+                <legend>Payment Information</legend>
+                <label for="cardNum">Card Number</label>
+                <input type="text" id="cardNum" maxlength="16" style="width: 8rem;">
+                <label for="ccv">CCV</label>
+                <input type="text" id="ccv" maxlength="3" style="width: 3rem;">
             </fieldset>
             <button type="submit">Submit</button>
         </form>

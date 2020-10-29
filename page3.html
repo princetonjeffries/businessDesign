@@ -6,6 +6,51 @@
     <title>What We Do</title>
     <link rel="stylesheet" href="stylesheet/styles.css">
     <link rel="icon" href="images/logo.png" type="image/gif" sizes="32x32">
+    <style>
+        div.container{
+            display: grid;
+            grid-template-areas: 
+            'soap    wax     fresh'
+            'soap    vaccum  dust'
+            'restore restore restore';
+            background-color: #950740;
+            width: 85%;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 1rem;
+            grid-gap: 2rem;
+        }
+        div.soap{
+            grid-area: soap;
+            border: 6px ridge #642232;
+            background-color: #4e4e50;
+        }
+        div.wax{
+            grid-area: wax;
+            border: 6px ridge #642232;
+            background-color: #4e4e50;
+        }
+        div.fresh{
+            grid-area: fresh;
+            border: 6px ridge #642232;
+            background-color: #4e4e50;
+        }
+        div.vacuum{
+            grid-area: vaccum;
+            border: 6px ridge #642232;
+            background-color: #4e4e50;
+        }
+        div.dust{
+            grid-area: dust;
+            border: 6px ridge #642232;
+            background-color: #4e4e50;
+        }
+        div.restore{
+            grid-area: restore;
+            border: 6px ridge #642232;
+            background-color: #4e4e50;
+        }
+    </style>
 </head>
 <body>
     <div class="header">
@@ -30,6 +75,26 @@
         </nav>
     </div>
     <img id="logo" src="images/logo.png" height="300px" width="300px">
+    <div class="container">
+        <div class="soap">
+            soap
+        </div>
+        <div class="wax">
+            wax
+        </div>
+        <div class="fresh">
+            fresh
+        </div>
+        <div class="vacuum">
+            vacuum
+        </div>
+        <div class="dust">
+            dust
+        </div>
+        <div class="restore">
+            restore
+        </div>
+    </div>
     <footer>
         <h2>Contact Information</h2>
         <address>
