@@ -146,36 +146,7 @@ footer a {
     left: 50%;
     transform: translate(-50%, -50%);
   }
-.review1{
-    color:black;
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: rgba(255, 255, 255, 0.5);
-    padding:2px;
-    width: 25%;
-  }
-.review2{
-    color:black;
-    position: absolute;
-    top: 72.5%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: rgba(255, 255, 255, 0.5);
-    padding:2px;
-    width: 25%;
-  }
-.review3{
-    color:black;
-    position: absolute;
-    top: 85%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: rgba(255, 255, 255, 0.5);
-    padding:2px;
-    width: 25%;
-  }
+
   @font-face{
     font-family: "Oswald";
     src: url(../fonts/oswald/oswald.ttf);
